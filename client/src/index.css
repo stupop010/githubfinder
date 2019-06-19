@@ -160,3 +160,15 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 700px) {
+  .search {
+    flex-direction: column;
+  }
+  #submit-btn {
+    margin-left: 2rem;
+  }
+  .search form div button {
+    margin-top: 1rem;
+  }
+}

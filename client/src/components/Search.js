@@ -28,12 +28,14 @@ const Search = () => {
           value={username}
           onChange={onChange}
         />
-        <button id="sumbit-btn" type="submit">
-          Go Search
-        </button>
-        <button id="clear-btn" type="button" onClick={clearForm}>
-          Clear all users
-        </button>
+        <div>
+          <button id="submit-btn" type="submit">
+            Go Search
+          </button>
+          <button id="clear-btn" type="button" onClick={clearForm}>
+            Clear all users
+          </button>
+        </div>
       </form>
     </div>
   );
